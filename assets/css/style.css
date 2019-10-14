@@ -1,0 +1,169 @@
+body, html {
+
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#headers {
+    font-family: 'Press Start 2P', cursive;
+    color: yellowgreen;
+    padding: 40px 40px 10px 40px;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(230, 0, 122);
+    padding: 10px;
+    text-align: center; 
+    
+}
+.bitheaders {
+    
+    font-size: 50px;
+  
+}
+
+#About-Me {
+    
+    border-color: black;
+    border-style: thin;
+    padding: 10px;
+    float: left;
+    width: 80%;
+    margin-left: 150px;
+    border-bottom: 1px;
+   
+   }
+   
+   .bitmoji {
+       padding: 10px;
+       float: left;
+       margin-top: 0;
+       height: 250px;
+       width: 250px;
+   }
+   
+   p {
+       font-family: 'Press Start 2P', cursive;
+       color: rgb(218, 4, 238);
+       line-height: 2.5;
+       padding: 50px;
+       margin-right: 10px;
+       margin-top: 0;  
+       font-size: 10pt;
+       
+       
+   }
+  #contactbit {
+    transform: rotateY(180deg);
+    margin-top: 50px;
+    padding: 40px;
+  }
+
+  #carouselportfolio {
+      position: absolute;
+      height: 550px;
+      width: 550px;
+      padding: 30px;
+      margin-top: 20px;
+      margin-left: 25%;
+      margin-right: 25%;
+      display: block;
+  }
+  
+   .headerbit {       
+    
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+
+   .headertags{
+       color: yellowgreen;
+   }
+ 
+  #quality {
+      height: 300px;
+      width: 300px;
+  }
+
+  .loader {
+     
+      display: flex;
+      align-items: center;
+  }
+
+  #portfoliolink {
+      position: relative;
+      width: 500px;
+      height: 500px;
+      border-radius: 50%;
+      background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+      animation: animate 0.5s linear infinite;      
+      align-items: center;
+        
+  }
+
+  #portfoliolink1
+{      position: relative;
+    width: 525px;
+    height: 525px;
+    border-radius: 50%;
+    float: left;
+    z-index: 2;
+}
+  #portfoliolink span {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;    
+    background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+    animation: animate 0.5s linear infinite;
+  
+    
+      
+}
+
+
+#portfoliolink span:nth-child(1) 
+    {
+    filter: blur(5px);
+    }
+#portfoliolink span:nth-child(2) 
+    {
+    filter: blur(10px);
+    }
+#portfoliolink span:nth-child(3) 
+    {
+    filter: blur(25px);
+    }
+#portfoliolink span:nth-child(4) 
+    {
+    filter: blur(500px);
+    }
+
+#portfoliolink:after
+{
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 50%;
+}
+@keyframes animate
+  {
+      0%
+      {
+          transform: rotate(0deg);
+      }
+      100%
+    {
+        transform: rotate(360deg);
+    }
+}   
