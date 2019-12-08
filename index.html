@@ -54,13 +54,13 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="#">CONTACT <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#portfolio">PORTFOLIO <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">PORTFOLIO</a>
+          <a class="nav-link" href="#contact">CONTACT</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">ABOUT ME</a>
+          <a class="nav-link" href="#aboutMe">ABOUT ME</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
@@ -79,6 +79,8 @@
   </nav>
 
   <div id="About-Me">
+    
+  <a id="aboutMe"> 
     <section>
       <img class="bitmoji" src="assets/images/hiemoji.png"> </img>
       <p> Hi, My name is Andrea Williams from New Haven, CT.
@@ -92,42 +94,37 @@
         learning the ins ands outs of developing functional, beautiful apps.
       </p>
     </section>
+    
+  <a id="portfolio"> 
   </div>
 
   <div id="portfolio-head">
-    <h3 class="bitheaders"><img class="headerbits" src="assets/images/magnify.png"></img>Portfolio</h3>
+      <a id="portfolio">      
+    <h3 id="phead" class="bitheaders"><img class="headerbits" src="assets/images/magnify.png"></img>Portfolio</h3>
+    <h5 id="enter">Click below to Enter</h5>
   </div>
 
-  <div class="loader">
-    <div id="portfoliolink">
 
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-
-    </div>
     <div id="pl">
-      <img id="portfoliolink1" class="headerbit" src="assets/images/quality.png"></img>
+        <a href="portfolio.html">
+      <img id="portfoliolink1" class="headerbit"  src="assets/images/quality.png"></img></a>
     </div>
   </div>
   <h3 class="bitheaders"><img id="contactbit" class="headerbit" src="assets/images/sunglasses.png"></img>
     Contact</h3>
 
   <div id="Contact-Me" class="bitheaders"></div>
+  
+  <a id="contact"> 
   <form>
     <div class="form-group">
-      <label for="exampleInputEmail1">Email address</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+      <label for="exampleInputEmail">Email address</label>
+      <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp"
         placeholder="Enter email">
-      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
     </div>
-    <div class="form-group">
-      <label for="exampleInputPassword1">Password</label>
-      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-    </div>
+
     <div class="form-check">
-      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <input type="checkbox" class="form-check-input" id="sendEmail">
       <label class="form-check-label" for="exampleCheck1">Check me out</label>
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
